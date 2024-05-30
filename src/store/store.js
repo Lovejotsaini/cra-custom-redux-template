@@ -47,7 +47,7 @@ class Store {
             this.listeners.forEach(listener => listener());
         }
     }
-
+    
     subscribe(listener) {
         this.listeners.push(listener);
         return () => {

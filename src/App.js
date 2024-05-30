@@ -6,7 +6,7 @@ import Component from './Component';
 import Header from './Header';
 
 const App = () => {
-  const [state, dispatch] = useStore();
+
 
   return (
     <div>
